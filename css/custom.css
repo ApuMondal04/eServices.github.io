@@ -1,0 +1,142 @@
+.navbar-brand{
+
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    color: #fff;
+    padding-left: 4%;
+}
+
+.custom-nav .custom-nav-item a{
+    color: #fff !important;
+}
+.custom-nav-item:hover{
+    background-color: #dc3545;
+    border: solid #dc3545 1px;
+    border-radius: 10px;
+}
+.navbar-nav{
+    padding-left: 4%;
+}
+
+.remove-vid-marg{
+    margin: 0px;
+    padding: 0px;
+}
+
+.vid-parent{
+    position: relative;
+}
+video{
+    margin-top: 30px;
+    width: 100%;
+    height: 100%;
+}
+
+.vid-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #225370e1;
+    z-index: 1;
+    opacity: 0.8;
+}
+
+/*Signup Sign in*/
+.vid-content{
+    position: absolute;
+    z-index: 2;
+    top: 50%;
+    left: 35%;
+    text-align: center;
+    color: #fff;
+}
+.font-italic{
+    font-style: italic;
+}
+
+/* .jumbotron{
+        background-color: #b6b4b8;
+        font-size: 15px;
+        padding: 2px;
+        margin: 8px 150px 5px 150px;
+    
+}  */
+
+.form-lebel{
+    padding-left: 10px;
+    font-weight: bold;
+
+}
+.jumbotron {
+    padding: 2rem 1rem;
+    margin-bottom: 2rem;
+    background-color: #e9ecef;
+    border-radius: .3rem;
+   background-color: rgb(253, 89, 60);
+  }
+.jumbotron1 {
+    padding: 1rem 1rem;
+    margin-bottom: 2rem;
+    background-color: #e9ecef;
+    border-radius: .3rem;
+    margin: 12px 90px 0 90px;
+  } 
+
+  .card-text{
+      font-size: 12px;
+  }
+  .card-tite{
+      font-size: 15px;
+  }
+  .img-fluid{
+    border-radius:100px;
+    max-width: 60%;
+  }
+/* .fi-color{
+    color: #dc3545;
+} */
+.fi-color:hover{
+    color: #da959c;
+}
+.logarea{
+    margin-top: 8%;
+    
+}
+
+.required select:after { content:"*"; }
+
+@media screen and (min-width:0px) and (max-width:700px){
+
+    .custom-nav .custom-nav-item a{
+        padding: 10px 20px;
+        background-color: #523d5a;
+    }
+
+    .vid-content{
+        top: 22%;
+        left: 23%;
+    }
+
+    .font-italic{
+        font-style: italic;
+        font-size: 13px;
+    }
+    .btn{
+        font-size: 13.5px;
+        text-align: center;
+    }
+    .my-content{
+        font-size: 25px;
+    }
+
+    .jumbotron1{
+        background-color: #e9ecef;
+        font-size: 10px;
+        padding: 2px;
+        margin: 8px 10px 5px 10px;
+    }
+   
+}
